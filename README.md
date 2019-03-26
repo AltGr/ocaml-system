@@ -1,8 +1,8 @@
 # Virtual package definition for custom OCaml system compilers
 
-Assuming you have installed to your PATH a custom compiler version, e.g.
-`4.08.0+foo`, to your system and want to use it in opam without recompilation,
-you can use this package to treat it as a system compiler:
+Assuming you have installed a custom compiler version, e.g. `4.08.0+foo`, to
+your PATH and want to use it in opam without recompilation, you can use this
+package to treat it as a system compiler:
 
 ```
 opam pin ocaml-system.$(opam var sys-ocaml-version) git+https://github.com/AltGr/ocaml-system
