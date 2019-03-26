@@ -13,3 +13,7 @@ available: sys-ocaml-version = version
 flags: compiler
 build: ["ocaml" "gen_ocaml_config.ml"]
 substs: "gen_ocaml_config.ml"
+authors: "Louis Gesbert, OCamlPro"
+homepage: "https://github.com/AltGr/ocaml-system"
+bug-reports: "https://github.com/AltGr/ocaml-system/issues"
+dev-repo: "git+https://github.com/AltGr/ocaml-system"
