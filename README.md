@@ -15,6 +15,3 @@ repository.
 
 The package definition here is similar, except that it refers to its version
 dynamically in the `available:` field.
-
-Note: this requires dependency constraints on `ocaml-system` in the `ocaml`
-package to be relaxed, which was not yet done when this was written.
